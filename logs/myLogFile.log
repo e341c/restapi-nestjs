@@ -1,0 +1,9 @@
+3/2/24, 12:30 AM	undefined	Requst for ALL Employees	::1
+3/2/24, 12:30 AM	AllExceptionsFilter	Internal Server Error
+3/2/24, 12:30 AM	undefined	Requst for ALL Employees	::1
+3/2/24, 12:30 AM	AllExceptionsFilter	Internal Server Error
+3/2/24, 12:30 AM	undefined	Requst for ALL Employees	::1
+3/2/24, 12:31 AM	undefined	Requst for ALL Employees	::1
+3/2/24, 12:31 AM	AllExceptionsFilter	 Invalid `this.databaseService.employee.findMany()` invocation in /Users/eriktabys/Desktop/nestJs/rest-api/src/employees/employees.service.ts:16:44    13    14 async findAll(role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {   15   if (role) → 16     return this.databaseService.employee.findMany({            where: {              role: "PASTA"                    ~~~~~~~            }          })  Invalid value for argument `role`. Expected Role.
+3/2/24, 12:33 AM	EmployeesController	Requst for ALL Employees	::1
+3/2/24, 12:33 AM	AllExceptionsFilter	 Invalid `this.databaseService.employee.findMany()` invocation in /Users/eriktabys/Desktop/nestJs/rest-api/src/employees/employees.service.ts:16:44    13    14 async findAll(role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {   15   if (role) → 16     return this.databaseService.employee.findMany({            where: {              role: "PASTA"                    ~~~~~~~            }          })  Invalid value for argument `role`. Expected Role.
